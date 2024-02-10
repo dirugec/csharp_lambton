@@ -12,3 +12,4 @@
 /Users/dumarruge/Library/CloudStorage/GoogleDrive-dirugec.lambton@gmail.com/My Drive/Term2/C# dotNet/Assignment/Assignment2/obj/Debug/net8.0/Assignment2.pdb
 /Users/dumarruge/Library/CloudStorage/GoogleDrive-dirugec.lambton@gmail.com/My Drive/Term2/C# dotNet/Assignment/Assignment2/obj/Debug/net8.0/Assignment2.genruntimeconfig.cache
 /Users/dumarruge/Library/CloudStorage/GoogleDrive-dirugec.lambton@gmail.com/My Drive/Term2/C# dotNet/Assignment/Assignment2/obj/Debug/net8.0/ref/Assignment2.dll
+/Users/dumarruge/Library/CloudStorage/GoogleDrive-dirugec.lambton@gmail.com/My Drive/Term2/C# dotNet/Assignment/Assignment2/obj/Debug/net8.0/Assignment2.sourcelink.json

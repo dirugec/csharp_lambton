@@ -12,3 +12,4 @@
 /Users/dumarruge/Library/CloudStorage/GoogleDrive-dirugec.lambton@gmail.com/My Drive/Term2/C# dotNet/Assignment/PracticeExercises/obj/Debug/net8.0/PracticeExercises.pdb
 /Users/dumarruge/Library/CloudStorage/GoogleDrive-dirugec.lambton@gmail.com/My Drive/Term2/C# dotNet/Assignment/PracticeExercises/obj/Debug/net8.0/PracticeExercises.genruntimeconfig.cache
 /Users/dumarruge/Library/CloudStorage/GoogleDrive-dirugec.lambton@gmail.com/My Drive/Term2/C# dotNet/Assignment/PracticeExercises/obj/Debug/net8.0/ref/PracticeExercises.dll
+/Users/dumarruge/Library/CloudStorage/GoogleDrive-dirugec.lambton@gmail.com/My Drive/Term2/C# dotNet/Assignment/PracticeExercises/obj/Debug/net8.0/PracticeExercises.sourcelink.json

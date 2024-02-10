@@ -1,0 +1,14 @@
+/Users/dumarruge/Library/CloudStorage/GoogleDrive-dirugec.lambton@gmail.com/My Drive/Term2/C# dotNet/Assignment/PracticeExercises/bin/Debug/net8.0/PracticeExercises
+/Users/dumarruge/Library/CloudStorage/GoogleDrive-dirugec.lambton@gmail.com/My Drive/Term2/C# dotNet/Assignment/PracticeExercises/bin/Debug/net8.0/PracticeExercises.deps.json
+/Users/dumarruge/Library/CloudStorage/GoogleDrive-dirugec.lambton@gmail.com/My Drive/Term2/C# dotNet/Assignment/PracticeExercises/bin/Debug/net8.0/PracticeExercises.runtimeconfig.json
+/Users/dumarruge/Library/CloudStorage/GoogleDrive-dirugec.lambton@gmail.com/My Drive/Term2/C# dotNet/Assignment/PracticeExercises/bin/Debug/net8.0/PracticeExercises.dll
+/Users/dumarruge/Library/CloudStorage/GoogleDrive-dirugec.lambton@gmail.com/My Drive/Term2/C# dotNet/Assignment/PracticeExercises/bin/Debug/net8.0/PracticeExercises.pdb
+/Users/dumarruge/Library/CloudStorage/GoogleDrive-dirugec.lambton@gmail.com/My Drive/Term2/C# dotNet/Assignment/PracticeExercises/obj/Debug/net8.0/PracticeExercises.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dumarruge/Library/CloudStorage/GoogleDrive-dirugec.lambton@gmail.com/My Drive/Term2/C# dotNet/Assignment/PracticeExercises/obj/Debug/net8.0/PracticeExercises.AssemblyInfoInputs.cache
+/Users/dumarruge/Library/CloudStorage/GoogleDrive-dirugec.lambton@gmail.com/My Drive/Term2/C# dotNet/Assignment/PracticeExercises/obj/Debug/net8.0/PracticeExercises.AssemblyInfo.cs
+/Users/dumarruge/Library/CloudStorage/GoogleDrive-dirugec.lambton@gmail.com/My Drive/Term2/C# dotNet/Assignment/PracticeExercises/obj/Debug/net8.0/PracticeExercises.csproj.CoreCompileInputs.cache
+/Users/dumarruge/Library/CloudStorage/GoogleDrive-dirugec.lambton@gmail.com/My Drive/Term2/C# dotNet/Assignment/PracticeExercises/obj/Debug/net8.0/PracticeExercises.dll
+/Users/dumarruge/Library/CloudStorage/GoogleDrive-dirugec.lambton@gmail.com/My Drive/Term2/C# dotNet/Assignment/PracticeExercises/obj/Debug/net8.0/refint/PracticeExercises.dll
+/Users/dumarruge/Library/CloudStorage/GoogleDrive-dirugec.lambton@gmail.com/My Drive/Term2/C# dotNet/Assignment/PracticeExercises/obj/Debug/net8.0/PracticeExercises.pdb
+/Users/dumarruge/Library/CloudStorage/GoogleDrive-dirugec.lambton@gmail.com/My Drive/Term2/C# dotNet/Assignment/PracticeExercises/obj/Debug/net8.0/PracticeExercises.genruntimeconfig.cache
+/Users/dumarruge/Library/CloudStorage/GoogleDrive-dirugec.lambton@gmail.com/My Drive/Term2/C# dotNet/Assignment/PracticeExercises/obj/Debug/net8.0/ref/PracticeExercises.dll

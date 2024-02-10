@@ -7,7 +7,7 @@
 */
 using System;
 
-class Interval
+class interval
 {
     static void Main(string[] args)
     {

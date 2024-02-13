@@ -1,7 +1,7 @@
 ﻿/*  Course: 2024W CSD 2354 8 Programming C#.NET
     Author: Dumar Ruge
     Id: C0869984
-    Date: 01/19/2024
+    Date: 02/12/2024
 */
 using System.Runtime.Intrinsics.Arm;
 
@@ -130,7 +130,7 @@ namespace PracticeExerciseWeek5
             //     }
             // }
 
-            // Console.WriteLine($"The biggest number is: {biggest}");
+            // System.Console.WriteLine($"The biggest number is: {biggest}");
 
 
             // ===================================================
@@ -203,7 +203,7 @@ namespace PracticeExerciseWeek5
             //     }
             // }
 
-            // Console.WriteLine($"Sorted numbers in descending order: {first}, {second}, {third}");
+            // System.Console.WriteLine($"Sorted numbers in descending order: {first}, {second}, {third}");
 
 
             // ++++++  Set 2    ++++++++
@@ -230,29 +230,29 @@ namespace PracticeExerciseWeek5
             //         System.Console.WriteLine("Two");
             //         break;
             //     case 3:
-            //         Console.WriteLine("Three");
+            //         System.Console.WriteLine("Three");
             //         break;
             //     case 4:
-            //         Console.WriteLine("Four");
+            //         System.Console.WriteLine("Four");
             //         break;
             //     case 5:
-            //         Console.WriteLine("Five");
+            //         System.Console.WriteLine("Five");
             //         break;
             //     case 6:
-            //         Console.WriteLine("Six");
+            //         System.Console.WriteLine("Six");
             //         break;
             //     case 7:
-            //         Console.WriteLine("Seven");
+            //         System.Console.WriteLine("Seven");
             //         break;
             //     case 8:
-            //         Console.WriteLine("Eight");
+            //         System.Console.WriteLine("Eight");
             //         break;
             //     case 9:
-            //         Console.WriteLine("Nine");
+            //         System.Console.WriteLine("Nine");
             //         break;
             //     default:
             //            // default case is using to prevent a wrong input like a character
-            //         Console.WriteLine("Invalid digit");
+            //         System.Console.WriteLine("Invalid digit");
             //         break;
             // }
 
@@ -330,6 +330,235 @@ namespace PracticeExerciseWeek5
             // }
             // // Printing the result greatestNumber
             // System.Console.WriteLine($"The greatest number is: {greatestNumber}");
+
+
+
+            // ++++++  Set 3    ++++++++
+            // ================== Exercise 1 =====================           
+            /* 
+                Write a program that, depending on the user's
+                choice inputs int, double or string variable. If the
+                variable is integer or doublle, increase it with 1. If
+                the variable is string, appends "*" at its end. The
+                program must show the value of that variable as a
+                console output. Use switch statement.
+            */
+
+            // System.Console.WriteLine("Choose the type of the variable:");
+            // System.Console.WriteLine("1. Integer");
+            // System.Console.WriteLine("2. Duble");
+            // System.Console.WriteLine("3. String");
+            // System.Console.Write("Enter your chois (1,2 or 3): ");
+
+            // int selection = int.Parse(Console.ReadLine());
+
+            // switch (selection)
+            // {
+            //     case 1:
+            //         System.Console.Write("Enter an Integer: ");
+            //         int intValue = int.Parse(Console.ReadLine());
+            //         intValue++;
+            //         System.Console.WriteLine($"The new integer is {intValue}");
+            //         break;
+            //     case 2:
+            //         System.Console.Write("Enter an Integer: ");
+            //         double doubleValue = double.Parse(Console.ReadLine());
+            //         doubleValue++;
+            //         System.Console.WriteLine($"The new integer is {doubleValue}");
+            //         break;
+            //     case 3:
+            //         System.Console.WriteLine(" Enter a String: ");
+            //         string strValue = Console.ReadLine();
+            //         strValue += "*";
+            //         System.Console.WriteLine($"The new string is {strValue}");
+            //         break;
+            //     default:
+            //         System.Console.WriteLine("Invalid Choice");
+            //         break;
+            // }
+
+
+            // ================== Exercise 2 =====================           
+            //     /* 
+            //         We are given 5 integer numbers. Write a program
+            //         that checks if the sum of some subset of them is 0.
+            //         Example: 3,-2,1,1,8 =>1+1-2=0.
+            //     */
+
+            //     // This is the list with five numbers that we will use as an input
+            //     int[] nums = { -4, 1, 1, 2, 8 };
+
+            //     // Recursive function to find subsets with sum 0.
+            //     static void SubsetSum(int[] nums, int target, int index, List<int> subset)
+            //     {
+            //         // If we have processed all elements in the array
+            //         if (index == nums.Length)
+            //         {
+            //             // If the sum of the current subset equals the target, print the subset
+            //             if (subset.Sum() == target)
+            //             {
+            //                 // Print the answer when the subset get the target sum or 0 in this case
+            //                 System.Console.WriteLine("Subset with sum 0 found: [" + string.Join(",", subset) + "]");
+            //             }
+            //             return;
+            //         }
+
+            //         // Include current number in the subset and recursively call SubsetSum with next index
+            //         subset.Add(nums[index]);
+            //         SubsetSum(nums, target, index + 1, subset);
+
+
+            //         // Exclude current number from the subset and recursively call SubsetSum with next index
+            //         subset.RemoveAt(subset.Count - 1);
+            //         SubsetSum(nums, target, index + 1, subset);
+
+            //     }
+            //     // call the function
+            //     SubsetSum(nums, 0, 0, new List<int>());
+
+            // ++++++  Set 4    ++++++++
+            // ================== Exercise 1 =====================        
+            /*
+            Write a program that applies bonus scores to given
+            scores in the range [1..9]. The program reads a digit
+            as an input. If the digit is between 1 and 3, the
+            program multiplies it by 10; if it is between 4 and 6,
+            multiplies it by 100; if it is between 7 and 9,
+            multiplies it by 1000. If it is zero or if the value is not
+            a digit, the program must report an error.
+            Use a switch statement and at the end print the
+            calculated new value in the console.
+            */
+
+            // System.Console.WriteLine("Enter a digit between 1 and 9:");
+            // // Declaring the variable to store the user input
+            // int input;
+
+            // // Try to parse the input as an integer
+            // if (!int.TryParse(Console.ReadLine(), out input))
+            // {
+            //     // If parsing fails, print an error message
+            //     System.Console.WriteLine("Error: Invalid input. Please enter a digit between 1 and 9.");
+            //     return;
+            // }
+            // // Decalring a variable to store the bonus to apply
+            // int bonusScore;
+
+            // // Use a switch statement to handle different cases
+            // switch (input)
+            // {
+            //     //If input is between 1 and 3 then multiply by 10
+            //     case 1:
+            //     case 2:
+            //     case 3:
+            //         bonusScore = input * 10;
+            //         break;
+            //     //If input is between 4 and 6 then multiply by 100
+            //     case 4:
+            //     case 5:
+            //     case 6:
+            //         bonusScore = input * 100;
+            //         break;
+            //     //If input is between 7 and 9 then multiply by 1000
+            //     case 7:
+            //     case 8:
+            //     case 9:
+            //         bonusScore = input * 1000;
+            //         break;
+            //     default:
+            //         // If the input is not between 1 and 9, print an error message
+            //         System.Console.WriteLine("Error: Input out of range. Please enter a digit between 1 and 9.");
+            //         return;
+            // }
+
+            // // Print the calculated bonus score
+            // System.Console.WriteLine("Calculated new value: " + bonusScore);
+
+
+            // ++++++  Set 5    ++++++++
+            // ================== Exercise 1 =====================        
+            /*
+            Write a program that converts a number in the
+            range [0...999] to a text corresponding to its
+            English pronunciation. Examples:
+            0 => "Zero"
+            273 => "Two hundred seventy three"
+            400 => "Four hundred"
+            501 => "Five hundred and one"
+            711 => "Severn hundred and eleven"
+            */
+
+            System.Console.WriteLine("Enter a number between 0 and 999:");
+            int number = int.Parse(Console.ReadLine());
+
+            // Checking the range
+            if (number < 0 || number > 999)
+            {
+                System.Console.WriteLine("Number out of range.");
+                return;
+            }
+
+
+            // Declaring the variable to store the return of the function
+            string result = ConvertNumberToWords(number);
+            // Printing the console output
+            System.Console.WriteLine($"The English pronunciation of {number} is: {result}");
+        }
+
+
+        // Function to evaluate the input
+        static string ConvertNumberToWords(int number)
+        {
+            // If number is zero
+            if (number == 0)
+            {
+                return "Zero";
+            }
+
+            // List of string to use when the number has ones, teens or tens
+            string[] ones = { "", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine" };
+            string[] teens = { "Ten", "Eleven", "Twelve", "Thirteen", "Fourteen", "Fifteen", "Sixteen", "Seventeen", "Eighteen", "Nineteen" };
+            string[] tens = { "", "", "Twenty", "Thirty", "Forty", "Fifty", "Sixty", "Seventy", "Eighty", "Ninety" };
+
+            // Declaring the variable to store the concatenation
+            string words = "";
+
+            // Add hundreds place if present
+            if (number / 100 > 0)
+            {
+                //  dividing the number by 100 to find the ones[index}] + hundred
+                words += ones[number / 100] + " hundred";
+
+                // if the number has tens ore ones  
+                number %= 100;
+                if (number > 0)
+                {
+                    words += " and ";
+                }
+            }
+
+            // Add tens place if present
+            if (number >= 10 && number <= 19)
+            {
+                words += teens[number % 10];
+            }
+            else if (number >= 20)
+            {
+                words += tens[number / 10];
+                if (number % 10 > 0)
+                {
+                    words += " ";
+                }
+            }
+
+            // Add ones place if present
+            if (number % 10 > 0 && number >= 10)
+            {
+                words += ones[number % 10];
+            }
+
+            return words;
+
         }
     }
 }
